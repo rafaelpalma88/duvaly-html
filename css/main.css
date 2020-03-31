@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header .logo{
+    
+    text-align: center;
+}
+header .phones {
+    display: flex;    
+    align-items:center;
+    justify-content: space-around;
+}
+.card-body {
+    padding-top: 30px
+}
+.item-circles {
+    text-align: center
+}
+.item-circles img {
+    width: 142px;
+    height: 138px;
+    border: 5px solid #211915;
+    border-radius: 50%;
+}
+.carousel-custom {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    left: initial;
+    z-index: 10;    
+    color: #fff;
+    text-align: left;
+    background: #211915;
+    border-radius: 10px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+#google-maps {
+    position: relative;
+    padding-bottom: 0%;
+    height: 250px;
+    overflow: hidden;
+}
+#google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.localizacao, footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.localizacao h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer {
+    background-color:#12212f
+}
+footer h4, footer p {
+    color: white;
+}
+footer h4 {
+    padding-bottom: 15px;
+}
+@media all and (min-width:768px) {
+    header .phones {
+        justify-content: flex-end
+    }
+}
